@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and label</title>
+  </head>
+  <body>
+    <h3>this is form and label</h3>
+    <form action="main.py">
+      <label for="name">Name</label>
+      <div>
+        <input type="text" id="name" name="myName" />
+      </div>
+
+      <label for="role">Role</label>
+      <div><input type="text" name="myRole" id="role" /></div>
+      <label for="email">Email-id</label>
+      <div><input type="email" name="myEmail" id="email" /></div>
+
+      <label for="date">Date</label>
+      <div><input type="date" id="date" name="myDate" /></div>
+
+      <label for="bonus">myBonus</label>
+      <div><input type="number" id="bonus" name="myBonus" /></div>
+      <label for="select">Select your fav langauge</label>
+      <div>
+        <select name="selection" id="select">
+          <option value="py" selected>Python</option>
+          <option value="js">JavaScript</option>
+          <option value="jv">Java</option>
+          <option value="cp">C++</option>
+        </select>
+      </div>
+      <label for="eligiblity">Are you ready?</label>
+      <div>
+        <input type="checkbox" id="eligiblity" name="confirm" checked />
+      </div>
+
+      <label for="gender">gender</label>
+      <div>
+        Male<input type="radio" name="mygender" id="gender" /> female<input
+          type="radio"
+          name="mygender"
+        />
+        other<input type="radio" name="mygender" />
+      </div>
+      <label for="message">Write about yourself: </label>
+      <div>
+        <textarea name="mytext" cols="30" rows="10" id="message"></textarea>
+      </div>
+
+      <div>
+        <input type="submit" value="submit now" />
+        <input type="reset" value="reset now" />
+      </div>
+    </form>
+  </body>
+</html>
