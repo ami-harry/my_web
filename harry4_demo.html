@@ -8,51 +8,51 @@
   <body>
     <h3>this is form and label</h3>
     <form action="main.py">
-      <label for="name">Name</label>
+      <label for="name">Name:</label>
       <div>
         <input type="text" id="name" name="myName" />
       </div>
-
-      <label for="role">Role</label>
-      <div><input type="text" name="myRole" id="role" /></div>
-      <label for="email">Email-id</label>
-      <div><input type="email" name="myEmail" id="email" /></div>
-
-      <label for="date">Date</label>
-      <div><input type="date" id="date" name="myDate" /></div>
-
-      <label for="bonus">myBonus</label>
-      <div><input type="number" id="bonus" name="myBonus" /></div>
-      <label for="select">Select your fav langauge</label>
+      <label for="gender">Gender</label>
       <div>
-        <select name="selection" id="select">
-          <option value="py" selected>Python</option>
-          <option value="js">JavaScript</option>
-          <option value="jv">Java</option>
-          <option value="cp">C++</option>
+        Male<input type="radio" name="myGender" id="gender" /> Female<input
+          type="radio"
+          name="myGender"
+          id="gender"
+        />
+        Others<input type="radio" name="myGender" id="gender" />
+      </div>
+      <label for="dob">Date of birth</label>
+      <div>
+        <input type="date" id="dob" name="dob" />
+      </div>
+      <label for="email">Email</label>
+      <div>
+        <input type="email" id="email" name="myEmail" />
+      </div>
+      <label for="phno">Mobile no:</label>
+      <div>
+        <input type="text/number" id="phno" name="phNo" />
+      </div>
+      <label for="class">Enter your class</label>
+      <div>
+        <select name="class" id="class">
+          <option value="8th">Eight</option>
+          <option value="8th">Ninth</option>
+          <option value="8th">Matric</option>
+          <option value="8th">+1</option>
+          <option value="8th">+2</option>
+          <option value="8th">persuing Eng</option
+          ><option value="8th">Passes out</option>
         </select>
       </div>
-      <label for="eligiblity">Are you ready?</label>
+      <label for="about">Write about yourself</label>
       <div>
-        <input type="checkbox" id="eligiblity" name="confirm" checked />
+        <textarea id="about" name="about" rows="5" cols="25"></textarea>
       </div>
-
-      <label for="gender">gender</label>
+      <label for="submit"></label>
       <div>
-        Male<input type="radio" name="mygender" id="gender" /> female<input
-          type="radio"
-          name="mygender"
-        />
-        other<input type="radio" name="mygender" />
-      </div>
-      <label for="message">Write about yourself: </label>
-      <div>
-        <textarea name="mytext" cols="30" rows="10" id="message"></textarea>
-      </div>
-
-      <div>
-        <input type="submit" value="submit now" />
-        <input type="reset" value="reset now" />
+        <input type="submit" value="submit now" name="submit" id="submit" />
+        <input type="reset" value="reset now" name="reset" />
       </div>
     </form>
   </body>
