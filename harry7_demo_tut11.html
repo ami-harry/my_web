@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Entities</title>
+  </head>
+  <body>
+    <!-- for a single space &nbse (non breaking space) -->
+    <div class="container">
+      <p>this is these spaces will no print paragraph</p>
+      <p>
+        this is another &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; paragraph
+      </p>
+      <!-- bydefault html gives only one space if we have given many spaces.. manuall we can give more spaces using entities -->
+    </div>
+    <div class="container">
+      <p>this is written like this &lt;p&gt;</p>
+      <p>this is written like this &gt;p&lt;</p>
+      <!-- entities are used to print html reserved keyword or to print special keyword -->
+      <p>pound is written like this &pound;</p>
+      <p>copyright is written like this &copy;</p>
+      <!-- https://dev.w3.org/html5/html-author/charref -->
+      <p>this is written like this &#188;</p>
+    </div>
+    <div>
+      <h2>empty character is written like this &#8203;</h2>
+      <h2>space is given   like this &nbsp;</h2>
+    </div>
+  </body>
+</html>
