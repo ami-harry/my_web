@@ -1,0 +1,58 @@
+header,
+footer {
+  background-color: brown;
+  color: yellow;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  border: 2px solid green;
+  /* display: inline; */
+}
+
+#first_div,
+#top_h2 {
+  border: 4px dotted black;
+  /* display: inline; */
+}
+
+.fir_h2 {
+  border: 5px solid green;
+  /* display: inline; */
+  border-radius: 15px;
+}
+
+.first_para,
+.red_bg {
+  /* display: inline; */
+  background-color: red;
+}
+
+.sec_h2 {
+  border-color: blueviolet;
+  border: 2px solid green;
+  font-family: "Over the Rainbow";
+}
+
+.seond_para,
+.blue_bg {
+  border: 2px solid yellow;
+  background-color: blue;
+}
+
+.img {
+  border: 3px dashed red;
+  height: 600px;
+  width: 700px;
+  background-image: url("download.jpeg");
+  background-repeat: no-repeat;
+  /* background-position: left center; */
+  /* background-position: right center; */
+  /* background-position: top center; */
+  /* background-position: bottom center; */
+  /* background-position: top right; */
+  /* background-position: top left; */
+  /* background-position: bottom left; */
+  /* background-position: bottom left; */
+  /* background-position: center */
+  /* background-position: left center; */
+  
+}

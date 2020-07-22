@@ -1,0 +1,22 @@
+header,
+      footer {
+        color: rgb(199, 86, 86);
+        background-color: blue;
+        font-size: 50px;
+        align-content: center;
+        display: inline;
+      }
+
+      p.main_paragraph {
+        color: red;
+      }
+      .main_paragraph{
+        color: green;
+      }
+
+      .secondary_paragraph{
+        display: inline-block;
+        align-items: center;
+        color: rgb(163, 36, 53);
+        background-color: blueviolet;
+      }
