@@ -1,0 +1,62 @@
+*,
+body {
+  font-family: monospace;
+  box-sizing: border-box;
+  margin: auto;
+  /* background-color: aquamarine; */
+}
+
+.container {
+  width: 700px;
+  border: 2px solid rgb(209, 169, 37);
+  background-color: rgb(194, 65, 108);
+  /* margin: 20px 30px;*/
+  /* margin: auto;  it will take elements in the middle */
+}
+
+.item {
+  margin: 15px 15px;
+  padding: 12px 6px;
+  border: 2px solid green;
+  background-color: rgb(204, 199, 134);
+}
+
+.para {
+  /* margin: 4px 6px ; */
+  margin: 15px 15px;
+}
+
+/* float left /right--> these element will overlap those elements which are not floating or un cleared */
+/* this propoerty is used to set any elements from the direction of screen */
+
+#fruit {
+  float: right;
+  width: 45%;
+}
+
+#stationary {
+  float: left;
+  width: 45%;
+}
+
+#computer {
+  float: right;
+}
+
+/* the non floating element will be distured just after the element or the first element after the changing or floating element */
+#phone {
+  clear: both;
+}
+/* alignment , left, right, center, justify */
+p,
+h3 {
+  /* text-align: justify; */
+  /* text-align: left; */
+  /* text-align: right; */
+  text-align: left;
+}
+
+h1 {
+  margin: 23px auto;
+  width: 300px;
+}

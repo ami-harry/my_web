@@ -1,0 +1,47 @@
+.container {
+  border: 2px solid rgb(35, 136, 35);
+  background-color: rgb(73, 204, 95);
+  padding: 34px;
+  margin: auto;
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(180, 21, 21);
+}
+
+/* hover meanbs when we take our pointer over it ,  its color will be changed*/
+a:hover {
+  color: rgb(245, 245, 245);
+  background-color: rgb(8, 8, 8);
+}
+
+/* visited--> means the link on which you have already clicked once */
+a:visited {
+  color: rgb(70, 6, 219);
+  background-color: rgb(219, 217, 217);
+}
+
+/* active--> it is between the click and opening of the new tab,, its only for few seconds */
+a:active {
+  color: rgb(231, 255, 16);
+  background-color: rgb(226, 14, 198);
+}
+
+.btn {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  background-color: rgb(167, 177, 26);
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 14x;
+}
+.btn:hover {
+  color: rgb(240, 6, 6);
+  background-color: rgb(150, 133, 133);
+  border: 4px solid yellow;
+  border-radius: 4px;
+}

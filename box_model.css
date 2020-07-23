@@ -1,0 +1,43 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #33b79f40;
+}
+.container {
+  border: 2px solid #a911e8;
+  
+  padding: 16px 0px 7px 10px;
+  margin: 11px 4px 13px 10px;
+  width: 435px;
+}
+}
+/* (*) is universal selector, it will be allocated for the whole css */
+/* margin shorthand --> top bottom left right respectively*/
+/* padding shorthand--> top right bottom left */
+/* padding y(top/bottom) x(left/right) */
+/* box-sizing:border-box */
+/* this property will not allow to increase the width of the box when padding and margin are increase
+it will adjust in itself but will maintain the original width */
+
+.first_para {
+  margin: 2px 4px 6px 8px;
+  padding: 4px;
+  /* background-color: rgb(250, 183, 0); */
+  border: 2px dotted blue;
+}
+
+.second_para {
+  margin: 2px 4px 6px 8px;
+  padding: 4px;
+  /* background-color: rgb(157, 216, 177); */
+  border: 2px dotted green;
+}
+
+.third_para {
+  margin: 2px 4px 6px 8px;
+  padding: 4px;
+  /* background-color: rgb(122, 96, 168); */
+  border: 2px dashed yellow;
+}
