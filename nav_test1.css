@@ -1,0 +1,51 @@
+* {
+  background-image: url(https://source.unsplash.com/collection/190727/1600x900);
+}
+
+.nav_bar {
+  background-color: rgb(148, 84, 207);
+  border-radius: 15px;
+}
+
+.nav_bar ul {
+  overflow: auto;
+  margin: 7px 5px;
+}
+
+.nav_bar li {
+  float: left;
+  padding: 4px 5px;
+  margin: 17px 10px;
+  list-style: none;
+}
+
+.nav_bar li a {
+  text-decoration: none;
+  color: rgb(207, 240, 18);
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+.nav_bar li a:hover {
+  color: rgb(196, 12, 104);
+  background-color: rgb(103, 119, 150);
+}
+
+.search {
+  float: right;
+  padding: 4px 6px;
+}
+
+.nav_bar input {
+  margin: 15px 45px;
+  padding: 4px 7px;
+  color: red;
+  border-radius: 5px;
+}
+
+.heading {
+  color: red;
+  text-align: center;
+  font-family: monospace;
+  
+}
