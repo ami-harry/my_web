@@ -1,0 +1,72 @@
+.container {
+  height: 3000px;
+  width: 100%;
+  border: 2px solid red;
+  background-color: rgb(228, 207, 18);
+}
+.box {
+  border: 2px solid black;
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  margin: 2px;
+  text-align: center;
+}
+
+/* by default  position is static*/
+/* css positions--> static(default), relative, absolute, fixed, sticky */
+
+/* if we use relative we can use top/bottom/left/right properties */
+/* relative means relative to its normal position, it will adjust from anywhere from its original position */
+/* relative will make a gap at its normal position if we adjust it to somewhere */
+
+/* absolute--> it will adjust itself from its parent or main box,  */
+
+/* fixed --> it will fix at somewhere */
+
+/* sticky--> it will stuck at the top when we scroll down the page */
+
+#box1 {
+  position: static; /*This is default*/
+  /* we can also move it in any direction, it will adjust from its main box or parent box */
+  border: 2px solid rgb(228, 4, 109);
+  background-color: rgb(30, 143, 96);
+  left: 20px;
+  top: 40px;
+}
+
+#box2 {
+  position: relative;
+  border: 2px solid green;
+  background-color: rgb(98, 73, 122);
+  top: 200px;
+  left: 400px;
+  /* for relative position we can move it into any direction, it will leave a gap it its original position */
+}
+
+#box3 {
+  position: absolute;
+  border: 2px solid rgb(83, 155, 83);
+  background-color: rgb(130, 187, 25);
+  /* for absolute postion we can also move it anywhere. but it will resize itself from the parent location or main box */
+  top: 200px;
+  left: 400px;
+}
+
+#box4 {
+  position: fixed;
+  border: 2px solid rgb(216, 59, 11);
+  background-color: rgb(110, 9, 204);
+  /* we can fix the element anywhere. it will not move if we scroll the or anything, it will be fixed at that position  , it moves from its normal position*/
+  right: 10px;
+  bottom: 10px;
+}
+
+#box5 {
+  position: sticky;
+  border: 2px solid rgba(211, 21, 8, 0.932);
+  background-color: rgb(236, 4, 147);
+  /* we can fix the element anywhere. it will not move if we scroll the or anything, it will be fixed at that position , it moves from its normal position */
+  top: 500px;
+  bottom: 10px;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.top {
+  margin: auto;
+  width: 1000px;
+  border: 2px solid red;
+}
+
+.title_1 {
+  margin: 0;
+  border: 2px solid green;
+  display: block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  border: 2px solid black;
+  width: 10%;
+  display: block;
+}
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+.box {
+  width: 33%;
+  margin: 4px 0px;
+  border: 2px solid rgb(206, 190, 193);
+  background-color: rgb(14, 13, 12);
+  color: rgb(218, 211, 211);
+  display: inline-block;
+}
