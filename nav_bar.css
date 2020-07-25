@@ -1,0 +1,46 @@
+.container {
+  background-color: rgb(183, 223, 5);
+  border-radius: 2px solid red;
+}
+
+.container ul {
+  overflow: auto;
+  margin: 7px 5px;
+}
+
+.container li {
+  float: left;
+  padding: 4px 5px;
+  margin: 17px 10px;
+  list-style: none;
+}
+
+.container li a {
+  text-decoration: none;
+  color: rgb(0, 0, 7);
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+.container li a:hover {
+  color: rgb(255, 72, 0);
+  background-color: rgb(15, 78, 204);
+}
+
+.search {
+  margin: 11px 11px;
+  float: right;
+  padding: 4px 6px;
+}
+
+.nav_bar input {
+  padding: 4px 7px;
+  color: red;
+  border-radius: 5px;
+}
+
+.heading {
+  color: red;
+  text-align: center;
+  font-family: monospace;
+}

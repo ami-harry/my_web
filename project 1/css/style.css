@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/img/bg.jpg");
+}
+
+.left {
+  position: absolute;
+  left: 4px;
+  top: 14px;
+  display: inline-block;
+  border: 2px solid red;
+}
+
+.left img {
+  align-content: center;
+  filter: invert();
+  width: 100px;
+  height: 70px;
+}
+
+.left div {
+  text-align: center;
+}
+.mid {
+  display: block;
+  margin: 14px auto;
+  width: 40%;
+  border: 2px solid rgb(101, 248, 3);
+}
+
+.mid li {
+  display: inline-block;
+}
+
+.mid li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.mid li a:hover,
+.mid li a.active {
+  color: white;
+  text-decoration: underline;
+}
+.right {
+  position: absolute;
+  display: inline-block;
+  right: 4px;
+  top: 14px;
+  border: 2px solid rgb(5, 124, 98);
+}
+/* setting the buttons */
+.btn {
+  cursor: pointer;
+  margin: 6px 19px;
+  padding: 5px 6px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* making the form */
+.container {
+  display: block;
+  width: 50%;
+  border: 2px solid red;
+  margin: 122px 200px;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container btn {
+  margin: 10px 10px;
+  padding: 10px;
+}
+.get_form input {
+  text-align: center;
+  display: block;
+  width: 74%;
+  padding: 5px 6px;
+  margin: 2px auto;
+  border: 3px solid black;
+  border-radius: 13px;
+  font-size: 17px;
+}
+.container button {
+  padding: 5px;
+  display: block;
+  width: 26%;
+  margin: auto 302px;
+}

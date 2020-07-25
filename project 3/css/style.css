@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/bg1.jpg");
+  color: white;
+  /* background-repeat: no-repeat; */
+}
+
+.left {
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+  top: 20px;
+  border: 2px solid yellow;
+}
+.left img {
+  position: relative;
+  top: 3px;
+  left: 13px;
+  width: 85px;
+}
+.left div {
+  text-align: center;
+}
+.mid {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  border: 2px solid pink;
+}
+
+.right {
+  position: absolute;
+  display: inline-block;
+  right: 30px;
+  top:20px;
+  border: 2px solid red;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  text-decoration: none;
+  padding: 30px 20px;
+  font-size: 25px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  color: yellow;
+  text-decoration: underline;
+}
