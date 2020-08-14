@@ -33,7 +33,7 @@ body {
   position: absolute;
   display: inline-block;
   right: 30px;
-  top:20px;
+  top: 20px;
   border: 2px solid red;
 }
 
@@ -50,5 +50,55 @@ body {
 .navbar li a:hover,
 .navbar li a.active {
   color: yellow;
+  text-decoration: underline;
+}
+
+.btn {
+  margin: 5px 15px;
+  padding: 8px 9px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+/* making a  form */
+
+.container {
+  border: 2px solid rgb(255, 255, 255);
+  margin: 94px 213px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.container h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.get_form input {
+  display: block;
+
+  text-align: center;
+  border: 2px solid black;  
+  border-radius: 10px;
+  padding: 8px 59px;
+  margin: 5px auto;
+  font-size: 18px;
+}
+
+.container button {
+  padding: 9px 14px;
+  display: block;
+  width: 25%;
+  margin: auto 302px;
+}
+
+.container button:hover {
+  background-color: yellow;
   text-decoration: underline;
 }

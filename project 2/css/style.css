@@ -53,3 +53,52 @@ body {
   color: yellow;
   text-decoration: underline;
 }
+
+.btn {
+  background-color: black;
+  color: white;
+  margin: 6px 7px;
+  padding: 7px 9px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.container {
+  display: block;
+  width: 43%;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 11px 13px;
+  margin: 102px 198px;
+}
+
+.container h1 {
+  text-align: center;
+}
+.get_form input {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: block;
+  width: 58%;
+  align-items: center;
+  margin: 2px auto;
+  padding: 7px 11px;
+}
+
+.container button {
+  display: block;
+  width: 24%;
+  margin: 13px auto;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: white;
+  color: black;
+}
